@@ -75,6 +75,8 @@ body {
   list-style-type: none;
   margin: 10px;
   max-width:300px ;
+  animation-name: fadeIn;
+  animation-duration: 0.3s;
 
 }
 .todo-title{
@@ -112,4 +114,20 @@ body {
 .completed-active{
   text-decoration: line-through;
   opacity: 0.7;
+}
+
+@keyframes fadeIn{
+  0%{
+    /* opacity: 0; */
+    transform: scale(0.4);
+  }
+ 
+  80%{
+    /* opacity: 0.7; */
+    /* transform: scale(0.9); */
+  }
+  100%{
+    opacity: 1;
+    transform: scale(1);
+  }
 }
