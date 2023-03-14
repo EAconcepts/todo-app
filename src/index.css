@@ -191,3 +191,32 @@ body {
     background-color: black;
   }
 }
+
+@media only screen and (max-width: 370px){
+
+  .app-wrapper{
+    position: absolute;
+    background-color:rgb(0, 255, 255);
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    min-height: 400px;
+    width: 75%;
+    margin: auto;
+    border-radius: 15px;
+    /* padding-top: 30px; */
+  } 
+
+  .item-btns{
+    position: absolute;
+    right: 15px;
+    margin-top: 6px;
+    font-size: 15px;
+  }
+
+  .item-btn{
+    margin: 5px;
+    color: aqua;
+    background-color: black;
+  }
+}
